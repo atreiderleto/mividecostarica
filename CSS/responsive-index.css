@@ -1,0 +1,331 @@
+@media screen and (max-width: 1128px){
+
+    
+   
+    #header{
+        width: 50%;
+        box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0);
+        position: fixed;
+        z-index: 1;
+        display: none;
+    }
+
+    .open{
+        display: flex !important;
+        animation: menu 400ms;
+    }
+
+    .close{
+        display: none;
+    }
+
+    @keyframes menu {
+       
+        0%{
+            transform: translateX(-100%);
+          }
+          50%{
+            transform: translateX(0.5);
+          }
+          100%{
+            transform: translateX(1);
+          }
+          
+    }
+
+    #logo{
+      display: none;
+    }
+
+    #menu-toggle{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 100%;
+        height: 80px;
+        background: linear-gradient(120deg, crimson, orange);
+        font-family: 'libel';
+        
+    }
+
+
+     #menu-toggle img{
+        width:100px;
+        height: 80px; 
+        
+    }
+
+    #btn img{
+        width: 50px;
+        height: 50px ;
+        margin-top: 13px;
+        margin-right: 13px;
+        cursor: pointer; 
+    }
+ 
+   #menu{
+        flex-direction: column;
+        width: 40%;
+        height: 100%;
+        background-color: crimson;
+        
+       }
+
+   #menu ul {
+       flex-direction: column;
+       
+       width: 100%;
+       text-align: center;
+   }
+    
+   #menu ul li{
+       width: 100%;
+       height: 50px;
+       padding-top: 20px;
+       border-bottom: 1px solid white;
+   }    
+
+}
+
+@media screen and (max-width: 972px){
+
+    #content{
+
+        width: 90%;
+
+    }
+    .cards-1{
+        width: 30%;
+    }
+
+    #content-virtual{
+        width: 86%;
+    }
+
+    .jumbotron h3{
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 786px){
+
+    
+
+    .cards-1{
+        width: 40%;
+    }
+
+    #footer-logo{
+        width: 23%;
+
+    }
+
+    #menu-footer{
+        width: 21%;
+    }
+
+    .jumbotron h3{
+        height: auto ;
+    }
+
+    .jumbotron p{
+
+        width: 90%;
+        height: auto;
+    }
+
+    .subcontent h3{
+        height: auto;
+        width: 90%;
+    }
+
+    .jumbotron-btn{
+        width: 25%;
+    }
+}
+
+@media (max-width: 666px){
+
+    #footer-logo img{
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+@media screen and (max-width: 570px){
+
+    .cards-1{
+        width: 40%;
+    }
+
+}
+
+
+@media screen and (max-width: 540px){
+
+    #footer{
+        width: 90%;
+    }
+
+    #footer-logo img{
+        width: 80px;
+        height: 80px;
+    }
+
+    #menu-footer{
+        width: 25%;
+    }
+
+    .social a img{
+
+        width: 30px;
+        height: 30px;
+
+    }
+
+}
+
+@media screen  and (max-width: 506px){
+
+    .cards-1{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 478px){
+
+    #menu-footer{
+        width: 31%;
+
+    }
+
+    #about{
+        width: 44%;
+    }
+
+    .social{
+
+        flex-flow: row wrap;
+        width: 92%;
+        margin-top: 30px;
+        
+     }
+    
+     .social a img{
+    
+        margin-left: 20px;
+     }
+
+     .jumbotron-btn{
+         width: 30%;
+         padding-bottom: 8px;
+     }
+
+}
+
+@media screen and (max-width: 453px){
+
+
+    
+ #menu-footer{
+     width: 35%;
+ }
+    
+
+ #about{
+
+    width: 40%;
+
+ }
+
+ 
+
+
+ #footer span{
+     margin-top: 20px;
+ }
+
+}
+
+
+@media screen and (max-width: 417px){
+
+    #about{
+        width: 42%;
+    }
+}
+
+@media screen and (max-width: 397px){
+
+    #footer-logo{
+        width: 100%;
+    }
+
+    #footer-menu{
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+    }
+
+    #about{
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    #about p{
+        width: 70%;
+    }
+
+    .jumbotron-btn{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 386px){
+
+        #menu-footer{
+            width: 43%;
+        }
+
+        #menu ul li{
+            font-size: 17px;
+        }
+
+        #menu-footer ul li{
+            font-size: 12px;
+        }
+
+}
+
+
+@media(max-width: 320px){
+
+    #footer{
+        height: 980px;
+    }
+    #menu-footer{
+        width: 40%;
+    }
+
+    #menu ul li{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 299px){
+
+    #menu-footer{
+        width: 47%;
+    }
+
+    #menu ul li{
+        font-size: 12px;
+    }
+
+}
